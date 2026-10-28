@@ -1,0 +1,1118 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Skull King">
+<meta name="theme-color" content="#0a1c2b">
+<link rel="apple-touch-icon" href="data:image/png;base64,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">
+<title>Skull King – jeu de plis pirate</title>
+<style>
+  :root { --bg:#0a1c2b; --panel:#102a3e; --panel2:#163750; --ink:#f3ead3; --muted:#9db3c4; --gold:#e6b64f; --red:#d9534f; --ok:#52c27f; }
+  * { box-sizing:border-box; }
+  html,body { margin:0; padding:0; -webkit-text-size-adjust:100%; }
+  body { min-height:100vh; color:var(--ink); font-family:"Trebuchet MS","Segoe UI",system-ui,sans-serif; -webkit-tap-highlight-color:transparent; touch-action:manipulation;
+    background: radial-gradient(1100px 520px at 50% -8%, #1d4f6e 0%, rgba(10,28,43,0) 70%), linear-gradient(#0a1c2b,#071420) fixed; }
+  button { font:inherit; color:inherit; cursor:pointer; touch-action:manipulation; }
+  button:disabled { opacity:.45; cursor:not-allowed; }
+  #app { max-width:1040px; margin:0 auto; padding:calc(12px + env(safe-area-inset-top)) 12px 40px; }
+
+  /* ---------- Bandeau ---------- */
+  .top { display:flex; flex-wrap:wrap; align-items:center; gap:10px 16px; justify-content:space-between; padding:6px 2px 12px; }
+  .brand { font-family:Georgia,"Times New Roman",serif; font-weight:700; letter-spacing:.14em; color:var(--gold); font-size:20px; }
+  .rd { color:var(--muted); font-size:14px; }
+  .rd b { color:var(--ink); }
+  .btns { display:flex; gap:6px; flex-wrap:wrap; }
+  .btn, .btns button { background:var(--panel2); border:1px solid #2a5473; border-radius:8px; padding:7px 12px; font-size:13px; }
+  .btn:hover:not(:disabled), .btns button:hover { background:#1d4565; }
+  .btn.primary { background:var(--gold); color:#2a1d05; border-color:#f2cb78; font-weight:700; }
+  .btn.primary:hover:not(:disabled) { background:#f0c765; }
+  button:focus-visible { outline:2px solid #7cc4ff; outline-offset:2px; }
+
+  /* ---------- Table ---------- */
+  .table { display:grid; grid-template-columns:repeat(auto-fit,minmax(128px,1fr)); gap:10px; }
+  .seat { background:linear-gradient(var(--panel),#0d2334); border:1px solid #234a66; border-radius:12px; padding:9px 8px 10px; text-align:center; position:relative; transition:box-shadow .2s, border-color .2s; min-width:0; }
+  .seat.turn { border-color:var(--gold); box-shadow:0 0 0 2px rgba(230,182,79,.35), 0 0 18px rgba(230,182,79,.25); }
+  .seat.won { border-color:var(--ok); box-shadow:0 0 0 2px rgba(82,194,127,.4), 0 0 20px rgba(82,194,127,.3); }
+  .seat .nm { font-weight:700; font-size:14px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+  .seat.me .nm { color:var(--gold); }
+  .seat .st { font-size:12px; color:var(--muted); margin:3px 0 1px; }
+  .seat .st b { color:var(--ink); font-size:13px; }
+  .seat .sc { font-size:11px; color:var(--muted); margin-bottom:7px; }
+  .seat .sc b { color:var(--ink); }
+  .slot { display:flex; justify-content:center; min-height:calc(clamp(46px,7vw,68px) * 1.4 + 4px); }
+  .empty { width:clamp(46px,7vw,68px); aspect-ratio:5/7; border:2px dashed #2b5675; border-radius:8px; opacity:.55; }
+  .cc { font-size:11px; color:var(--muted); margin-top:6px; }
+
+  /* ---------- Centre ---------- */
+  .center { margin:14px 0 8px; text-align:center; min-height:96px; }
+  .badges { display:flex; flex-wrap:wrap; justify-content:center; gap:8px; margin-bottom:10px; }
+  .badge { background:#0e263a; border:1px solid #2a5473; border-radius:999px; padding:4px 12px; font-size:12px; color:var(--muted); }
+  .badge b { color:var(--ink); }
+  .msg { font-size:16px; margin:6px 0 8px; min-height:24px; }
+  .msg small { display:block; color:var(--muted); font-size:13px; margin-top:3px; }
+  .toast { font-size:13px; color:var(--gold); margin:4px 0; }
+  .bidrow { display:flex; flex-wrap:wrap; justify-content:center; gap:8px; margin-top:8px; }
+  .bidrow button { width:46px; height:46px; border-radius:50%; background:var(--panel2); border:2px solid #2f6285; font-size:18px; font-weight:700; }
+  .bidrow button:hover { background:var(--gold); color:#2a1d05; border-color:#f2cb78; }
+
+  /* ---------- Main ---------- */
+  .hand { display:flex; flex-wrap:wrap; justify-content:center; gap:8px; padding:14px 6px 6px; min-height:120px; }
+  .hand .card.ok { cursor:pointer; transition:transform .12s, box-shadow .12s; }
+  .hand .card.ok:hover { transform:translateY(-12px); box-shadow:0 10px 18px rgba(0,0,0,.5), 0 0 0 2px var(--gold); }
+  .hand .card.no { opacity:.35; filter:grayscale(.6); cursor:not-allowed; }
+  .hand .card.ok.glow { box-shadow:0 0 0 2px rgba(230,182,79,.7), 0 3px 10px rgba(0,0,0,.5); }
+  .hand .card.sel { transform:translateY(-12px); box-shadow:0 0 0 3px var(--red), 0 8px 16px rgba(0,0,0,.5); opacity:.8; cursor:pointer; }
+  .hand .card.newc { box-shadow:0 0 0 3px var(--gold), 0 0 14px rgba(230,182,79,.6); }
+  .hint { font-size:12px; color:var(--muted); text-align:center; padding:0 8px 4px; line-height:1.4; }
+  .hint b { color:var(--ink); }
+
+  /* ---------- Cartes ---------- */
+  .card { --cw:clamp(52px,8.6vw,84px); --c:#555; width:var(--cw); aspect-ratio:5/7; font-size:calc(var(--cw)/5);
+    border-radius:calc(var(--cw)/9); background:#f6eedb; color:#222; position:relative; border:2px solid var(--c);
+    box-shadow:0 2px 6px rgba(0,0,0,.5); padding:.28em .34em; display:flex; flex-direction:column; justify-content:space-between;
+    font-weight:800; user-select:none; -webkit-user-select:none; -webkit-touch-callout:none; flex:none; overflow:hidden; }
+  .card.sm { --cw:clamp(46px,7vw,68px); }
+  .card .tl, .card .br { position:relative; z-index:2; line-height:1; font-size:1.05em; }
+  .card .tl small, .card .br small { display:block; font-size:.7em; margin-top:.05em; }
+  .card .br { align-self:flex-end; transform:rotate(180deg); }
+  .card .art { position:absolute; inset:0; display:grid; place-items:center; font-size:2.3em; z-index:1; }
+  .card.num { color:var(--c); background:linear-gradient(#fbf5e6,#efe3c6); }
+  .card.s-g { --c:#238a4f; } .card.s-p { --c:#7a46bd; } .card.s-y { --c:#c98a0a; }
+  .card.s-b { --c:#e8e8ee; background:linear-gradient(#26262e,#121216); border-color:#777; }
+  .card.sp .lb { font-size:.56em; letter-spacing:.03em; text-transform:uppercase; white-space:nowrap; }
+  .card.t-pirate { --c:#b3261e; background:linear-gradient(#fbe8e3,#f0c8bf); color:#7c1812; }
+  .card.t-mermaid { --c:#0f8c93; background:linear-gradient(#e2f8f8,#b9e6e9); color:#0a5a60; }
+  .card.t-sk { --c:#d4a017; background:linear-gradient(#2d2208,#0e0a02); color:#f4d36b; border-width:3px; }
+  .card.t-sk .art::after { content:"👑"; position:absolute; top:6%; left:50%; transform:translateX(-50%); font-size:.55em; }
+  .card.t-escape { --c:#8a98a6; background:linear-gradient(#f3f5f7,#d7dde2); color:#4b5864; }
+  .card.t-tigress { --c:#d9731a; background:linear-gradient(#fff0dc,#f5c88f); color:#8a4308; }
+  .card.t-kraken { --c:#6d2fa0; background:linear-gradient(#2a1340,#12081f); color:#d9b8ff; }
+  .card.t-whale { --c:#2d6cdf; background:linear-gradient(#eaf3ff,#bcd7fb); color:#1a4aa3; }
+  .card.t-loot { --c:#b8860b; background:linear-gradient(#fff6d6,#f1d77a); color:#7a5a05; }
+  .card .mode { position:absolute; left:0; right:0; bottom:0; z-index:3; text-align:center; font-size:.5em; padding:.2em 0; background:rgba(0,0,0,.75); color:#fff; letter-spacing:.06em; text-transform:uppercase; }
+  .card.drop { animation:drop .35s cubic-bezier(.2,.9,.3,1.2); }
+  @keyframes drop { from { transform:translateY(-34px) scale(1.15) rotate(-6deg); opacity:0; } to { transform:none; opacity:1; } }
+  .card.win { box-shadow:0 0 0 3px var(--ok), 0 0 18px rgba(82,194,127,.6); }
+
+  /* ---------- Écran titre ---------- */
+  .setup { max-width:540px; margin:3vh auto 0; background:linear-gradient(var(--panel),#0c2132); border:1px solid #2a5473; border-radius:16px; padding:26px 22px; text-align:center; }
+  .setup h1 { font-family:Georgia,serif; letter-spacing:.16em; color:var(--gold); margin:0 0 4px; font-size:34px; }
+  .setup p.sub { color:var(--muted); margin:0 0 20px; font-size:14px; }
+  .setup .row { text-align:left; margin:14px 0; }
+  .setup label.l, .setup .l { display:block; font-size:12px; color:var(--muted); margin-bottom:6px; letter-spacing:.06em; text-transform:uppercase; }
+  .setup input[type=text], .setup select { width:100%; padding:10px 12px; border-radius:8px; border:1px solid #2f6285; background:#0b2132; color:var(--ink); font:inherit; font-size:16px; }
+  .seg { display:flex; gap:6px; }
+  .seg button { flex:1; padding:9px 0; border-radius:8px; background:#0b2132; border:1px solid #2f6285; font-weight:700; }
+  .seg button[aria-pressed=true] { background:var(--gold); color:#2a1d05; border-color:#f2cb78; }
+  .opts { display:grid; gap:6px; }
+  .opt { display:flex; align-items:center; gap:12px; background:#0b2132; border:1px solid #2f6285; border-radius:10px; padding:10px 12px; cursor:pointer; }
+  .opt:hover { border-color:var(--gold); }
+  .opt input { width:20px; height:20px; accent-color:var(--gold); flex:none; margin:0; }
+  .opt span { font-size:14px; font-weight:700; }
+  .opt small { display:block; font-weight:400; color:var(--muted); font-size:12px; margin-top:1px; }
+  .optshead { display:flex; justify-content:space-between; align-items:center; margin-bottom:6px; }
+  .optshead .l { margin:0; }
+  .linkbtn { background:none; border:none; color:var(--gold); font-size:12px; padding:2px 0; text-decoration:underline; }
+  .setup .go { width:100%; margin-top:20px; padding:13px; font-size:16px; }
+  .setup .links { margin-top:14px; display:flex; justify-content:center; gap:10px; }
+  .fine { margin-top:18px; font-size:11px; color:#6f8799; line-height:1.4; }
+
+  /* ---------- Modales ---------- */
+  #modal:empty { display:none; }
+  .mback { position:fixed; inset:0; background:rgba(2,8,14,.78); display:flex; align-items:flex-start; justify-content:center; padding:calc(4vh + env(safe-area-inset-top)) 12px 4vh; overflow:auto; z-index:50; -webkit-overflow-scrolling:touch; }
+  .mbox { width:100%; max-width:720px; background:linear-gradient(var(--panel),#0c2132); border:1px solid #2f6285; border-radius:14px; padding:20px 18px; box-shadow:0 20px 60px rgba(0,0,0,.6); }
+  .mbox h2 { font-family:Georgia,serif; margin:0 0 12px; color:var(--gold); letter-spacing:.06em; }
+  .mbox h3 { margin:16px 0 6px; font-size:15px; color:var(--gold); }
+  .mbox p, .mbox li { font-size:14px; line-height:1.5; color:#dcd5c0; }
+  .mbox ul { margin:4px 0 8px; padding-left:20px; }
+  .mact { display:flex; gap:8px; justify-content:flex-end; flex-wrap:wrap; margin-top:16px; }
+  .twrap { overflow-x:auto; }
+  table.sc { width:100%; border-collapse:collapse; font-size:13px; }
+  table.sc th, table.sc td { padding:6px 8px; border-bottom:1px solid #214863; text-align:center; white-space:nowrap; }
+  table.sc th { color:var(--gold); font-weight:700; }
+  table.sc td:first-child, table.sc th:first-child { text-align:left; color:var(--muted); }
+  table.sc td small { color:var(--muted); }
+  table.sc .pos { color:var(--ok); font-weight:700; } table.sc .neg { color:#ef7b76; font-weight:700; }
+  table.sc tfoot td { font-weight:800; font-size:15px; color:var(--ink); border-top:2px solid #2f6285; }
+  .podium { text-align:center; font-size:15px; margin-bottom:10px; }
+  .podium .w { font-size:22px; color:var(--gold); font-family:Georgia,serif; }
+  .choices { display:flex; gap:10px; justify-content:center; margin-top:10px; flex-wrap:wrap; }
+  .choices button { flex:1 1 120px; padding:14px 10px; border-radius:10px; background:var(--panel2); border:1px solid #2f6285; font-size:15px; }
+  .choices button:hover:not(:disabled) { background:var(--gold); color:#2a1d05; }
+  .choices button small { display:block; font-size:12px; opacity:.8; margin-top:3px; }
+  .undealt { display:flex; flex-wrap:wrap; gap:6px; justify-content:center; margin-top:10px; }
+
+
+  /* ---------- Glossaire ---------- */
+  .gtabs { display:flex; gap:6px; flex-wrap:wrap; margin-bottom:6px; }
+  .gtabs button { background:#0b2132; border:1px solid #2f6285; border-radius:999px; padding:6px 12px; font-size:13px; }
+  .gtabs button[aria-pressed=true] { background:var(--gold); color:#2a1d05; border-color:#f2cb78; font-weight:700; }
+  .gsec { margin:16px 0 2px; font-size:12px; letter-spacing:.1em; text-transform:uppercase; color:var(--muted); }
+  .gentry { display:flex; gap:14px; padding:12px 0; border-top:1px solid #214863; align-items:flex-start; }
+  .gcards { flex:none; display:grid; grid-template-columns:repeat(var(--cols,1),auto); gap:6px; align-content:start; }
+  .gtxt { flex:1; min-width:0; }
+  .gtxt h3 { margin:0 0 4px; display:flex; flex-wrap:wrap; align-items:center; gap:6px 8px; font-size:16px; }
+  .gtxt h3 em { font-style:normal; font-weight:400; font-size:12px; color:var(--muted); }
+  .gtxt ul { margin:4px 0 0; }
+  .gtxt li { margin-bottom:3px; }
+  .tag { font-size:11px; font-weight:700; padding:2px 8px; border-radius:999px; border:1px solid; letter-spacing:.03em; }
+  .tag.adv { color:var(--gold); border-color:var(--gold); }
+  .tag.on { color:var(--ok); border-color:var(--ok); }
+  .tag.off { color:var(--muted); border-color:#3a6683; }
+  .ghier { background:#0b2132; border:1px solid #2a5473; border-radius:10px; padding:12px 14px; margin-top:10px; }
+  .ghier .cycle { text-align:center; font-size:15px; line-height:1.7; margin:2px 0 8px; }
+  .ghier .cycle b { color:var(--gold); }
+  .ghier ol { margin:6px 0 0; padding-left:22px; }
+  .ghier li, .ghier p { font-size:13.5px; }
+  .gbonus { width:100%; border-collapse:collapse; margin-top:8px; font-size:13px; }
+  .gbonus td { padding:5px 4px; border-bottom:1px solid #214863; color:#dcd5c0; }
+  .gbonus td:last-child { text-align:right; font-weight:700; color:var(--ok); white-space:nowrap; }
+  .gnote { font-size:12px; color:var(--muted); margin:8px 0 0; line-height:1.4; }
+  @media (max-width:640px) { .gentry { gap:10px; } .gtxt h3 { font-size:15px; } }
+
+  /* ---------- Mobile ---------- */
+  @media (max-width:640px) {
+    #app { padding:calc(8px + env(safe-area-inset-top)) 8px 0; }
+    .top { padding:2px 0 8px; gap:6px 10px; }
+    .brand { font-size:16px; }
+    .rd { font-size:12px; }
+    .btns button { padding:6px 9px; font-size:12px; }
+    .table { grid-template-columns:repeat(3,minmax(0,1fr)); gap:6px; }
+    .seat { padding:6px 3px 7px; border-radius:10px; }
+    .seat .nm { font-size:12px; }
+    .seat .st { font-size:10.5px; margin:2px 0 0; }
+    .seat .st b { font-size:11.5px; }
+    .seat .sc { font-size:10px; margin-bottom:4px; }
+    .slot { min-height:calc(46px * 1.4 + 4px); }
+    .empty { width:46px; }
+    .card.sm { --cw:46px; }
+    .cc { margin-top:4px; font-size:10px; }
+    .center { margin:10px 0 4px; min-height:0; }
+    .badge { font-size:11px; padding:3px 9px; }
+    .msg { font-size:15px; }
+    .handwrap { position:sticky; bottom:0; z-index:5; background:linear-gradient(rgba(7,20,32,0), #071420 26%); padding:4px 0 calc(8px + env(safe-area-inset-bottom)); margin:0 -8px; }
+    .hand { gap:5px; padding:12px 6px 2px; min-height:0; }
+    .card { --cw:clamp(44px,12.3vw,60px); }
+    .hand .card.ok:hover { transform:none; }
+    .setup { margin-top:1vh; padding:20px 16px; }
+    .setup h1 { font-size:28px; }
+    .mbox { padding:16px 14px; }
+  }
+</style>
+</head>
+<body>
+<div id="app"></div>
+<div id="modal"></div>
+
+<script>
+(function () {
+  "use strict";
+
+  /* ================= Données ================= */
+  var SUITS = {
+    g: { n: "Perroquets",       e: "🦜" },
+    p: { n: "Cartes au trésor", e: "🗺️" },
+    y: { n: "Coffres",          e: "💰" },
+    b: { n: "Pavillon noir",    e: "☠️" }
+  };
+  var SUIT_ORDER = ["g", "p", "y", "b"];
+  var SPECIAL = {
+    pirate:  { n: "Pirate",          e: "🏴‍☠️" },
+    mermaid: { n: "Sirène",          e: "🧜‍♀️" },
+    sk:      { n: "Skull King",      e: "💀" },
+    escape:  { n: "Fuite",           e: "🏳️" },
+    tigress: { n: "Tigresse",        e: "🐯" },
+    kraken:  { n: "Kraken",          e: "🐙" },
+    whale:   { n: "Baleine blanche", s: "Baleine", e: "🐋" },
+    loot:    { n: "Butin",           e: "💎" }
+  };
+  var SPECIAL_RANK = { escape: 0, loot: 1, mermaid: 2, pirate: 3, tigress: 4, sk: 5, kraken: 6, whale: 7 };
+  var PIRATES = [
+    { n: "Rosie",   d: "choisis qui entame le pli suivant." },
+    { n: "Bendt",   d: "pioche 2 cartes dans la pioche, puis défausse 2 cartes." },
+    { n: "Rascal",  d: "mise 0, 10 ou 20 points sur ton pari." },
+    { n: "Juanita", d: "regarde les cartes non distribuées." },
+    { n: "Harry",   d: "modifie ton pari de −1, 0 ou +1." }
+  ];
+  var OPTS = [
+    ["kraken",  "Kraken",              "Annule le pli : personne ne le gagne"],
+    ["whale",   "Baleine blanche",     "Neutralise les cartes spéciales du pli"],
+    ["loot",    "Butin (×2)",          "Alliance entre deux joueurs"],
+    ["pirates", "Pouvoirs des pirates", "5 pouvoirs uniques si tu gagnes avec le pirate"],
+    ["rascal",  "Comptage Rascal",     "Plus de points négatifs"]
+  ];
+  var BOT_NAMES = ["Barbe-Rousse", "Anne Bonny", "Jack le Borgne", "Capitaine Kidd", "Mary la Rouge"];
+
+  var G = null;
+  var SETTINGS = { name: "Moi", opp: 3, speed: 1, opts: { kraken: false, whale: false, loot: false, pirates: false, rascal: false } };
+  var timer = null;
+
+  function $(s) { return document.querySelector(s); }
+  function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); }
+  function delay(fn, ms) { clearTimeout(timer); timer = setTimeout(fn, ms * SETTINGS.speed); }
+  function isEsc(t) { return t === "escape" || t === "loot"; }
+
+  /* ================= Paquet ================= */
+  function makeDeck() {
+    var o = SETTINGS.opts, d = [], id = 0, i, v;
+    for (i = 0; i < 4; i++) for (v = 1; v <= 14; v++) d.push({ id: id++, t: "num", s: SUIT_ORDER[i], v: v });
+    for (i = 0; i < 5; i++) d.push({ id: id++, t: "pirate", k: i });
+    for (i = 0; i < 5; i++) d.push({ id: id++, t: "escape" });
+    for (i = 0; i < 2; i++) d.push({ id: id++, t: "mermaid" });
+    d.push({ id: id++, t: "sk" });
+    d.push({ id: id++, t: "tigress" });
+    if (o.kraken) d.push({ id: id++, t: "kraken" });
+    if (o.whale) d.push({ id: id++, t: "whale" });
+    if (o.loot) { d.push({ id: id++, t: "loot" }); d.push({ id: id++, t: "loot" }); }
+    return d;
+  }
+  function shuffle(a) {
+    for (var i = a.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)); var t = a[i]; a[i] = a[j]; a[j] = t; }
+    return a;
+  }
+  function sortKey(c) { return c.t === "num" ? SUIT_ORDER.indexOf(c.s) * 20 + c.v : 100 + SPECIAL_RANK[c.t] * 10 + (c.k || 0); }
+  function cmp(a, b) { return sortKey(a) - sortKey(b); }
+
+  /* ================= Règles ================= */
+  function effType(p) { return p.card.t === "tigress" ? p.mode : p.card.t; }
+
+  // Couleur demandée : première carte numérotée jouée (Fuites et Butin ignorés). Pirate/Sirène/SK/Kraken/Baleine en tête = pas de couleur.
+  function leadSuitE(plays, E) {
+    for (var i = 0; i < plays.length; i++) {
+      if (isEsc(E[i])) continue;
+      return E[i] === "num" ? plays[i].card.s : null;
+    }
+    return null;
+  }
+  function leadSuit(plays) { return leadSuitE(plays, plays.map(effType)); }
+
+  // Obligation de suivre : si une couleur est demandée et que tu en as, tu dois jouer cette couleur (les cartes spéciales restent toujours jouables).
+  function legalCards(hand, plays) {
+    var ls = leadSuit(plays);
+    if (!ls) return hand.slice();
+    var has = hand.some(function (c) { return c.t === "num" && c.s === ls; });
+    if (!has) return hand.slice();
+    return hand.filter(function (c) { return c.t !== "num" || c.s === ls; });
+  }
+
+  function baseWinner(plays, E) {
+    function cnt(t) { return E.filter(function (x) { return x === t; }).length; }
+    var w = 0, bonus = 0, note = "", k, li;
+    if (E.every(isEsc)) {
+      li = E.indexOf("loot");
+      return { w: li >= 0 ? li : 0, bonus: 0, noAlly: li >= 0,
+        note: li >= 0 ? "Que des Fuites : le joueur du Butin remporte le pli (pas d'alliance)." : "Que des fuites : le premier joueur remporte le pli." };
+    }
+    if (E.indexOf("sk") >= 0 && E.indexOf("mermaid") >= 0) {
+      w = E.indexOf("mermaid"); bonus += 40; note = "La Sirène capture le Skull King ! (+40)";
+    } else if (E.indexOf("sk") >= 0) {
+      w = E.indexOf("sk"); k = cnt("pirate");
+      if (k) { bonus += 30 * k; note = "Le Skull King capture " + k + " pirate" + (k > 1 ? "s" : "") + " ! (+" + 30 * k + ")"; }
+    } else if (E.indexOf("pirate") >= 0) {
+      w = E.indexOf("pirate"); k = cnt("mermaid");
+      if (k) { bonus += 20 * k; note = "Un pirate capture " + k + " sirène" + (k > 1 ? "s" : "") + " ! (+" + 20 * k + ")"; }
+    } else if (E.indexOf("mermaid") >= 0) {
+      w = E.indexOf("mermaid");
+    } else {
+      var ls = leadSuitE(plays, E), best = -1;
+      plays.forEach(function (p, i) {
+        if (E[i] !== "num") return;
+        var c = p.card, sc = c.s === "b" ? 100 + c.v : (c.s === ls ? c.v : 0);
+        if (sc > best) { best = sc; w = i; }
+      });
+    }
+    return { w: w, bonus: bonus, note: note };
+  }
+
+  // Retourne { w, bonus, note, none, next, allies }. none = pli annulé (Kraken / Baleine sans carte numérotée).
+  function resolve(plays) {
+    var E = plays.map(effType), kr = -1, wh = -1, loots = [], r, i;
+    E.forEach(function (x, j) { if (x === "kraken") kr = j; if (x === "whale") wh = j; if (x === "loot") loots.push(j); });
+
+    if (kr >= 0 && kr > wh) {            // Kraken actif (le second joué garde son pouvoir)
+      var E2 = E.map(function (x) { return (x === "kraken" || x === "whale") ? "escape" : x; });
+      var b0 = baseWinner(plays, E2);
+      return { w: -1, none: true, next: b0.w, bonus: 0, allies: [], note: "Le Kraken engloutit le pli : personne ne le remporte." };
+    }
+    if (wh >= 0) {                        // Baleine blanche active
+      var best = -1, bv = -1;
+      plays.forEach(function (p, j) { if (E[j] === "num" && p.card.v > bv) { bv = p.card.v; best = j; } });
+      if (best < 0) return { w: -1, none: true, next: wh, bonus: 0, allies: [], note: "Baleine blanche : aucune carte numérotée, le pli est annulé. Le joueur de la Baleine entame le suivant." };
+      r = { w: best, bonus: 0, none: false, allies: loots.map(function (j) { return plays[j].pi; }),
+        note: "La Baleine blanche neutralise les cartes spéciales et les couleurs : la plus haute carte numérotée l'emporte." };
+    } else {
+      var b = baseWinner(plays, E);
+      r = { w: b.w, bonus: b.bonus, none: false, note: b.note, allies: b.noAlly ? [] : loots.map(function (j) { return plays[j].pi; }) };
+    }
+    var f = 0;
+    for (i = 0; i < plays.length; i++) {
+      if (plays[i].card.t === "num" && plays[i].card.v === 14) f += plays[i].card.s === "b" ? 20 : 10;
+    }
+    if (f) { r.bonus += f; r.note += (r.note ? " " : "") + "14 capturé(s) : +" + f + "."; }
+    return r;
+  }
+
+  /* ================= Bots ================= */
+  function botBid(p) {
+    var est = 0;
+    p.hand.forEach(function (c) {
+      if (c.t === "sk") est += 0.95;
+      else if (c.t === "pirate") est += 0.75;
+      else if (c.t === "tigress") est += 0.45;
+      else if (c.t === "mermaid") est += 0.35;
+      else if (c.t === "whale") est += 0.2;
+      else if (c.t === "kraken") est += 0.05;
+      else if (c.t === "num") {
+        if (c.s === "b") est += c.v >= 13 ? 0.85 : c.v >= 10 ? 0.55 : c.v >= 7 ? 0.3 : c.v >= 4 ? 0.12 : 0.04;
+        else est += c.v === 14 ? 0.55 : c.v === 13 ? 0.4 : c.v === 12 ? 0.25 : c.v === 11 ? 0.15 : 0.03;
+      }
+    });
+    est += (Math.random() - 0.5) * 0.8;
+    return Math.max(0, Math.min(G.round, Math.round(est)));
+  }
+
+  function strength(o) {
+    var c = o.card;
+    if (c.t === "num") return c.s === "b" ? 30 + c.v : c.v;
+    if (c.t === "escape" || c.t === "loot") return 0;
+    if (c.t === "kraken") return 1;
+    if (c.t === "whale") return 25;
+    if (c.t === "mermaid") return 45;
+    if (c.t === "pirate") return 60;
+    if (c.t === "sk") return 70;
+    return o.mode === "pirate" ? 59 : 0;
+  }
+  function pickBy(arr, fn, dir) {
+    var best = arr[0];
+    arr.forEach(function (o) { if (dir * (fn(o) - fn(best)) > 0 || (fn(o) === fn(best) && Math.random() < 0.5)) best = o; });
+    return best;
+  }
+
+  function botChoose(pi) {
+    var p = G.players[pi];
+    var legal = legalCards(p.hand, G.plays);
+    var opts = [];
+    legal.forEach(function (c) {
+      if (c.t === "tigress") { opts.push({ card: c, mode: "pirate" }); opts.push({ card: c, mode: "escape" }); }
+      else opts.push({ card: c, mode: null });
+    });
+    opts.forEach(function (o) {
+      var pl = G.plays.concat([{ pi: pi, card: o.card, mode: o.mode }]);
+      var r = resolve(pl);
+      o.win = !r.none && r.w === pl.length - 1;
+    });
+    var want = p.won < p.bid, lead = G.plays.length === 0, pick, pool;
+    if (want) {
+      if (lead) {
+        pool = opts.filter(function (o) { return o.mode !== "escape" && ["escape", "mermaid", "loot", "kraken"].indexOf(o.card.t) < 0; });
+        pick = pickBy(pool.length ? pool : opts, strength, 1);
+      } else {
+        pool = opts.filter(function (o) { return o.win; });
+        pick = pool.length ? pickBy(pool, strength, -1) : pickBy(opts, strength, -1);
+      }
+    } else {
+      pool = opts.filter(function (o) { return !o.win; });
+      pick = pool.length ? pickBy(pool, strength, 1) : pickBy(opts, strength, -1);
+    }
+    return pick;
+  }
+
+  /* ================= Déroulement ================= */
+  function newGame() {
+    clearTimeout(timer);
+    var n = SETTINGS.opp + 1, players = [];
+    players.push({ name: SETTINGS.name || "Moi", human: true, hand: [], bid: null, won: 0, bonus: 0, wager: 0, score: 0, rounds: [] });
+    var names = shuffle(BOT_NAMES.slice());
+    for (var i = 1; i < n; i++) players.push({ name: names[i - 1], human: false, hand: [], bid: null, won: 0, bonus: 0, wager: 0, score: 0, rounds: [] });
+    G = { n: n, players: players, round: 1, phase: "bid", plays: [], trickNo: 0, turn: 0, leader: 0, nextLeader: 0, msg: "", toast: "", animId: null,
+      winner: null, trickWon: false, revealed: false, pendingTig: null, deck: [], alliances: [], ability: null, bendt: null };
+    startRound();
+  }
+
+  function startRound() {
+    clearTimeout(timer);
+    var deck = shuffle(makeDeck());
+    G.players.forEach(function (p) {
+      p.hand = deck.splice(0, G.round).sort(cmp);
+      p.bid = null; p.won = 0; p.bonus = 0; p.wager = 0;
+    });
+    G.deck = deck;
+    G.alliances = []; G.ability = null; G.bendt = null; G.toast = "";
+    G.phase = "bid"; G.plays = []; G.trickNo = 0; G.revealed = false; G.msg = ""; G.winner = null; G.trickWon = false;
+    G.players.forEach(function (p, i) { if (i > 0) p.bid = botBid(p); });
+    render();
+  }
+
+  function humanBid(v) {
+    if (G.phase !== "bid") return;
+    G.players[0].bid = v;
+    G.revealed = true;
+    G.phase = "play";
+    G.leader = (G.round - 1) % G.n;
+    G.turn = G.leader;
+    G.toast = "";
+    render();
+    proceed();
+  }
+
+  function proceed() {
+    if (!G || G.phase !== "play") return;
+    if (G.turn !== 0) {
+      var who = G.turn;
+      delay(function () { botPlay(who); }, 650 + Math.random() * 450);
+    }
+  }
+
+  function botPlay(pi) {
+    if (!G || G.phase !== "play" || G.turn !== pi) return;
+    var o = botChoose(pi);
+    doPlay(pi, o.card, o.mode);
+  }
+
+  function doPlay(pi, card, mode) {
+    var p = G.players[pi];
+    p.hand = p.hand.filter(function (c) { return c.id !== card.id; });
+    G.plays.push({ pi: pi, card: card, mode: mode });
+    G.animId = card.id;
+    G.toast = "";
+    G.turn = (G.turn + 1) % G.n;
+    if (G.plays.length === G.n) {
+      var r = resolve(G.plays);
+      G.ability = null;
+      if (r.none) {
+        G.trickWon = false; G.winner = null;
+        G.nextLeader = G.plays[r.next].pi;
+        G.msg = esc(r.note) + "<small>" + esc(G.players[G.nextLeader].name) + " entame le pli suivant.</small>";
+      } else {
+        var wcard = G.plays[r.w];
+        G.trickWon = true; G.winner = wcard.pi;
+        var wp = G.players[G.winner];
+        wp.won++; wp.bonus += r.bonus;
+        G.nextLeader = G.winner;
+        var extra = r.note ? esc(r.note) + (r.bonus ? " Bonus comptés seulement si le pari est réussi." : "") : "";
+        r.allies.forEach(function (a) {
+          G.alliances.push([a, G.winner]);
+          extra += (extra ? " " : "") + "Alliance du Butin : " + esc(G.players[a].name) + " et " + esc(wp.name) + " (+20 chacun si les deux réussissent leur pari).";
+        });
+        if (SETTINGS.opts.pirates && wcard.card.t === "pirate") G.ability = { pi: G.winner, k: wcard.card.k };
+        G.msg = esc(wp.name) + " remporte le pli." + (extra ? "<small>" + extra + "</small>" : "");
+      }
+      G.phase = "trickend";
+      render();
+      delay(nextTrick, 2800);
+    } else {
+      render();
+      proceed();
+    }
+  }
+
+  function nextTrick() {
+    if (!G || G.phase !== "trickend") return;
+    clearTimeout(timer);
+    if (G.ability) {
+      var ab = G.ability, last = G.players[0].hand.length === 0;
+      G.ability = null;
+      if (!(last && ab.k !== 4)) {      // seul Harry peut servir après le dernier pli
+        G.phase = "ability";
+        runAbility(ab);
+        return;
+      }
+    }
+    finishTrick();
+  }
+
+  function finishTrick() {
+    G.trickNo++;
+    G.plays = [];
+    if (G.players[0].hand.length === 0) return endRound();
+    G.phase = "play";
+    G.turn = G.nextLeader;
+    G.leader = G.turn;
+    G.msg = "";
+    render();
+    proceed();
+  }
+
+  /* ---------- Pouvoirs des pirates ---------- */
+  function runAbility(ab) {
+    var p = G.players[ab.pi];
+    if (!p.human) { botAbility(ab, p); G.phase = "trickend"; finishTrick(); return; }
+    render();
+    if (ab.k === 0) showAbilityModal(0);
+    else if (ab.k === 1) {
+      var d = G.deck.splice(0, Math.min(2, G.deck.length));
+      if (!d.length) { G.phase = "trickend"; finishTrick(); return; }
+      p.hand = p.hand.concat(d).sort(cmp);
+      G.bendt = { drawn: d.map(function (c) { return c.id; }), sel: [] };
+      showBendtModal();
+    } else showAbilityModal(ab.k);
+  }
+
+  function botAbility(ab, p) {
+    var nm = esc(p.name), clamp = function (v) { return Math.max(0, Math.min(G.round, v)); };
+    if (ab.k === 0) {
+      var who = ab.pi;
+      if (p.won >= p.bid) {
+        var others = G.players.map(function (x, i) { return i; }).filter(function (i) { return i !== ab.pi; });
+        who = others[Math.floor(Math.random() * others.length)];
+      }
+      G.nextLeader = who;
+      G.toast = "Rosie : " + nm + " désigne " + esc(G.players[who].name) + " pour entamer le pli suivant.";
+    } else if (ab.k === 1) {
+      var d = G.deck.splice(0, Math.min(2, G.deck.length));
+      p.hand = p.hand.concat(d);
+      var s = p.hand.slice().sort(function (a, b) { return strength({ card: a, mode: null }) - strength({ card: b, mode: null }); });
+      var drop = p.won < p.bid ? s.slice(0, d.length) : s.slice(s.length - d.length);
+      p.hand = p.hand.filter(function (c) { return drop.indexOf(c) < 0; }).sort(cmp);
+      G.toast = "Bendt : " + nm + " pioche " + d.length + " carte" + (d.length > 1 ? "s" : "") + " et en défausse autant.";
+    } else if (ab.k === 2) {
+      p.wager = p.won === p.bid ? (p.hand.length <= 2 ? 20 : 10) : 0;
+      G.toast = "Rascal : " + nm + " mise " + p.wager + " point" + (p.wager > 1 ? "s" : "") + " sur son pari.";
+    } else if (ab.k === 3) {
+      G.toast = "Juanita : " + nm + " examine les cartes non distribuées.";
+    } else if (ab.k === 4) {
+      var last = p.hand.length === 0, nb = p.bid, old = p.bid;
+      if (last) { if (Math.abs(p.won - p.bid) === 1) nb = p.won; }
+      else if (p.won - p.bid === 1) nb = p.bid + 1;
+      p.bid = clamp(nb);
+      G.toast = "Harry : " + nm + (p.bid !== old ? " change son pari (" + old + " → " + p.bid + ")." : " garde son pari.");
+    }
+  }
+
+  function humanAbility(k, v) {
+    var me = G.players[0];
+    if (k === 0) G.nextLeader = v;
+    else if (k === 2) me.wager = v;
+    else if (k === 4) me.bid = Math.max(0, Math.min(G.round, me.bid + v));
+    closeModal();
+    G.phase = "trickend";
+    finishTrick();
+  }
+
+  function bendtToggle(id) {
+    var B = G.bendt, i = B.sel.indexOf(id);
+    if (i >= 0) B.sel.splice(i, 1);
+    else if (B.sel.length < B.drawn.length) B.sel.push(id);
+    showBendtModal();
+  }
+  function bendtConfirm() {
+    var B = G.bendt, me = G.players[0];
+    if (B.sel.length !== B.drawn.length) return;
+    me.hand = me.hand.filter(function (c) { return B.sel.indexOf(c.id) < 0; });
+    G.bendt = null;
+    closeModal();
+    G.phase = "trickend";
+    finishTrick();
+  }
+
+  function endRound() {
+    var rasc = SETTINGS.opts.rascal, n = G.round;
+    var ally = G.players.map(function () { return 0; });
+    G.alliances.forEach(function (pr) {
+      var a = G.players[pr[0]], b = G.players[pr[1]];
+      if (a.bid === a.won && b.bid === b.won) { ally[pr[0]] += 20; ally[pr[1]] += 20; }
+    });
+    G.players.forEach(function (p, i) {
+      var diff = Math.abs(p.bid - p.won), pts, bonus = 0;
+      if (rasc) {
+        if (diff === 0) { bonus = p.bonus; pts = 10 * n + bonus; }
+        else if (diff === 1) { bonus = Math.floor(p.bonus / 2); pts = 5 * n + bonus; }
+        else pts = 0;
+      } else if (p.bid === 0) pts = p.won === 0 ? 10 * n : -10 * n;
+      else if (diff === 0) { bonus = p.bonus; pts = 20 * p.bid + bonus; }
+      else pts = -10 * diff;
+      var al = diff === 0 ? ally[i] : 0;
+      var wg = p.wager ? (diff === 0 ? p.wager : -p.wager) : 0;
+      pts += al + wg;
+      p.score += pts;
+      p.rounds.push({ bid: p.bid, won: p.won, bonus: bonus, ally: al, wager: wg, pts: pts });
+    });
+    G.phase = "roundend";
+    G.msg = "Manche terminée.";
+    render();
+    showRoundModal();
+  }
+
+  function nextRound() {
+    closeModal();
+    if (G.round >= 10) { G.phase = "over"; render(); showFinalModal(); return; }
+    G.round++;
+    startRound();
+  }
+
+  function humanPlay(id) {
+    if (!G || G.phase !== "play" || G.turn !== 0) return;
+    var me = G.players[0];
+    var card = me.hand.filter(function (c) { return c.id === id; })[0];
+    if (!card) return;
+    var legal = legalCards(me.hand, G.plays);
+    if (!legal.some(function (c) { return c.id === id; })) return;
+    if (card.t === "tigress") { G.pendingTig = card; showTigModal(); return; }
+    doPlay(0, card, null);
+  }
+
+  /* ================= Rendu ================= */
+  function cardHTML(c, o) {
+    o = o || {};
+    var cls = ["card"], inner, attrs = o.attrs || "";
+    if (o.sm) cls.push("sm");
+    if (o.cls) cls.push(o.cls);
+    if (c.t === "num") {
+      var S = SUITS[c.s];
+      cls.push("num", "s-" + c.s);
+      inner = '<div class="tl">' + c.v + "<small>" + S.e + '</small></div><div class="art">' + S.e + '</div><div class="br">' + c.v + "<small>" + S.e + "</small></div>";
+    } else {
+      var D = SPECIAL[c.t], nm = c.t === "pirate" ? PIRATES[c.k].n : (D.s || D.n);
+      cls.push("sp", "t-" + c.t);
+      inner = '<div class="tl lb">' + nm + '</div><div class="art">' + D.e + '</div><div class="br lb">' + nm + "</div>";
+      if (c.t === "pirate" && SETTINGS.opts.pirates) attrs += ' title="' + esc(PIRATES[c.k].n + " : " + PIRATES[c.k].d) + '"';
+    }
+    if (o.mode) inner += '<div class="mode">' + (o.mode === "pirate" ? "Pirate" : "Fuite") + "</div>";
+    return '<div class="' + cls.join(" ") + '"' + attrs + ' data-id="' + c.id + '">' + inner + "</div>";
+  }
+
+  function seatHTML(p, i) {
+    var play = G.plays.filter(function (x) { return x.pi === i; })[0];
+    var isTurn = G.phase === "play" && G.turn === i;
+    var isWin = G.phase === "trickend" && G.trickWon && G.winner === i;
+    var bid;
+    if (G.phase === "bid" && !G.revealed) bid = i === 0 ? "?" : "…";
+    else bid = p.bid;
+    var slot = play
+      ? cardHTML(play.card, { sm: true, mode: play.mode, cls: (G.animId === play.card.id ? "drop " : "") + (isWin ? "win" : "") })
+      : '<div class="empty"></div>';
+    var showWon = G.phase !== "bid";
+    return '<div class="seat' + (i === 0 ? " me" : "") + (isTurn ? " turn" : "") + (isWin ? " won" : "") + '">' +
+      '<div class="nm">' + (isTurn ? "▶ " : "") + esc(p.name) + "</div>" +
+      '<div class="st">Pari <b>' + bid + "</b> · Plis <b>" + (showWon ? p.won : "–") + "</b></div>" +
+      '<div class="sc">Score <b>' + p.score + "</b></div>" +
+      '<div class="slot">' + slot + "</div>" +
+      '<div class="cc">' + p.hand.length + " carte" + (p.hand.length > 1 ? "s" : "") + "</div></div>";
+  }
+
+  function activeRules() {
+    var o = SETTINGS.opts, a = [];
+    if (o.kraken) a.push("Kraken"); if (o.whale) a.push("Baleine"); if (o.loot) a.push("Butin");
+    if (o.pirates) a.push("Pouvoirs"); if (o.rascal) a.push("Rascal");
+    return a;
+  }
+
+  function centerHTML() {
+    var h = "", ls = leadSuit(G.plays), ar = activeRules();
+    h += '<div class="badges"><span class="badge">Atout : <b>☠️ Pavillon noir</b></span>';
+    if (G.phase === "play" || G.phase === "trickend") {
+      h += '<span class="badge">Couleur demandée : <b>' + (G.plays.length === 0 ? "libre (tu entames)" : ls ? SUITS[ls].e + " " + SUITS[ls].n : "libre") + "</b></span>";
+    }
+    if (ar.length) h += '<span class="badge">Règles : <b>' + ar.join(" · ") + "</b></span>";
+    h += "</div>";
+    if (G.toast) h += '<div class="toast">' + G.toast + "</div>";
+    if (G.phase === "bid") {
+      h += '<div class="msg">Combien de plis penses-tu remporter ? <small>Manche ' + G.round + " : " + G.round + " carte" + (G.round > 1 ? "s" : "") + "</small></div><div class=\"bidrow\">";
+      for (var v = 0; v <= G.round; v++) h += '<button type="button" data-act="bid" data-v="' + v + '">' + v + "</button>";
+      h += "</div>";
+    } else if (G.phase === "play") {
+      h += '<div class="msg">' + (G.turn === 0 ? "<b>À toi de jouer.</b>" : esc(G.players[G.turn].name) + " réfléchit…") + "</div>";
+    } else if (G.phase === "trickend") {
+      h += '<div class="msg">' + G.msg + '</div><button type="button" class="btn primary" data-act="skip">Pli suivant ▶</button>';
+    } else if (G.phase === "ability") {
+      h += '<div class="msg">Pouvoir du pirate en cours…</div>';
+    } else if (G.phase === "roundend") {
+      h += '<div class="msg">' + G.msg + '</div><button type="button" class="btn primary" data-act="recap">Voir le bilan</button>';
+    } else if (G.phase === "over") {
+      h += '<div class="msg">Partie terminée.</div><button type="button" class="btn primary" data-act="recap">Voir le résultat final</button>';
+    }
+    return h;
+  }
+
+  function handHTML() {
+    var me = G.players[0], myTurn = G.phase === "play" && G.turn === 0;
+    var legalIds = myTurn ? legalCards(me.hand, G.plays).map(function (c) { return c.id; }) : [];
+    var cards = me.hand.map(function (c) {
+      var cls = "";
+      if (myTurn) cls = legalIds.indexOf(c.id) >= 0 ? "ok glow" : "no";
+      var attrs = myTurn && cls.indexOf("ok") >= 0 ? ' data-act="play" role="button" tabindex="0"' : "";
+      return cardHTML(c, { cls: cls, attrs: attrs });
+    }).join("");
+    var hint = "";
+    if (SETTINGS.opts.pirates) {
+      var ps = me.hand.filter(function (c) { return c.t === "pirate"; });
+      if (ps.length) hint = '<div class="hint">Pouvoirs (si tu gagnes le pli avec ce pirate) : ' +
+        ps.map(function (c) { return "<b>" + PIRATES[c.k].n + "</b> " + PIRATES[c.k].d; }).join(" · ") + "</div>";
+    }
+    return '<div class="hand">' + cards + "</div>" + hint;
+  }
+
+  function setupHTML() {
+    var h = '<div class="setup"><h1>SKULL KING</h1><p class="sub">Jeu de plis pirate · 10 manches · contre des bots</p>';
+    h += '<div class="row"><label class="l" for="pname">Ton nom</label><input id="pname" type="text" maxlength="16" value="' + esc(SETTINGS.name) + '"></div>';
+    h += '<div class="row"><div class="l">Adversaires</div><div class="seg" id="oppseg">';
+    for (var i = 2; i <= 5; i++) h += '<button type="button" data-act="opp" data-v="' + i + '" aria-pressed="' + (SETTINGS.opp === i) + '">' + i + "</button>";
+    h += '</div></div><div class="row"><label class="l" for="speed">Vitesse des bots</label><select id="speed">' +
+      '<option value="1"' + (SETTINGS.speed === 1 ? " selected" : "") + '>Normale</option>' +
+      '<option value="0.45"' + (SETTINGS.speed === 0.45 ? " selected" : "") + '>Rapide</option>' +
+      '<option value="0.02"' + (SETTINGS.speed === 0.02 ? " selected" : "") + '>Instantanée</option></select></div>';
+    h += '<div class="row"><div class="optshead"><div class="l">Règles avancées</div><button type="button" class="linkbtn" data-act="allopts">Tout cocher / décocher</button></div><div class="opts">';
+    OPTS.forEach(function (o) {
+      h += '<label class="opt"><input type="checkbox" data-opt="' + o[0] + '"' + (SETTINGS.opts[o[0]] ? " checked" : "") + '><span>' + o[1] + "<small>" + o[2] + "</small></span></label>";
+    });
+    h += "</div></div>";
+    h += '<button type="button" class="btn primary go" data-act="start">⚓ Lever l\'ancre</button>';
+    h += '<div class="links"><button type="button" class="btn" data-act="gloss">Glossaire des cartes</button><button type="button" class="btn" data-act="rules">Règles du jeu</button></div>';
+    h += '<div class="fine">Projet de fan, jeu solo dans le navigateur, sans lien avec l\'éditeur du jeu de société Skull King. Aucune donnée n\'est envoyée ni enregistrée.</div></div>';
+    return h;
+  }
+
+  function render() {
+    var app = $("#app");
+    if (!G) { app.innerHTML = setupHTML(); return; }
+    var h = '<header class="top"><div class="brand">☠ SKULL KING</div>' +
+      '<div class="rd">Manche <b>' + G.round + "</b>/10 · Pli <b>" + Math.min(G.trickNo + 1, G.round) + "</b>/" + G.round + "</div>" +
+      '<div class="btns"><button type="button" data-act="scores">Scores</button><button type="button" data-act="gloss">Cartes</button><button type="button" data-act="rules">Règles</button><button type="button" data-act="menu">Quitter</button></div></header>';
+    h += '<section class="table">' + G.players.map(seatHTML).join("") + "</section>";
+    h += '<section class="center">' + centerHTML() + "</section>";
+    h += '<section class="handwrap">' + handHTML() + "</section>";
+    app.innerHTML = h;
+    G.animId = null;
+  }
+
+  /* ================= Modales ================= */
+  function showModal(html) { $("#modal").innerHTML = '<div class="mback"><div class="mbox" role="dialog" aria-modal="true">' + html + "</div></div>"; }
+  function closeModal() { $("#modal").innerHTML = ""; }
+
+  function ptsCell(r) {
+    var ex = [];
+    if (r.bonus) ex.push("bonus " + r.bonus);
+    if (r.ally) ex.push("butin +" + r.ally);
+    if (r.wager) ex.push("mise " + (r.wager > 0 ? "+" : "") + r.wager);
+    return '<span class="' + (r.pts >= 0 ? "pos" : "neg") + '">' + (r.pts > 0 ? "+" : "") + r.pts + "</span><br><small>" + r.bid + "→" + r.won + (ex.length ? " · " + ex.join(" · ") : "") + "</small>";
+  }
+
+  function scoreTable(upTo) {
+    var h = '<div class="twrap"><table class="sc"><thead><tr><th>Manche</th>' + G.players.map(function (p) { return "<th>" + esc(p.name) + "</th>"; }).join("") + "</tr></thead><tbody>";
+    for (var r = 0; r < upTo; r++) {
+      h += "<tr><td>" + (r + 1) + "</td>" + G.players.map(function (p) { return "<td>" + (p.rounds[r] ? ptsCell(p.rounds[r]) : "") + "</td>"; }).join("") + "</tr>";
+    }
+    h += "</tbody><tfoot><tr><td>Total</td>" + G.players.map(function (p) { return "<td>" + p.score + "</td>"; }).join("") + "</tr></tfoot></table></div>";
+    h += '<p style="font-size:12px;color:#8aa2b4;margin:8px 0 0">Sous chaque score : pari → plis remportés.</p>';
+    return h;
+  }
+
+  function showScoresModal() {
+    var n = G ? G.players[0].rounds.length : 0;
+    showModal("<h2>Scores</h2>" + (n ? scoreTable(n) : "<p>Aucune manche terminée pour l'instant.</p>") +
+      '<div class="mact"><button type="button" class="btn primary" data-act="close">Fermer</button></div>');
+  }
+
+  function showRoundModal() {
+    var last = G.round >= 10;
+    showModal("<h2>Bilan de la manche " + G.round + "</h2>" + scoreTable(G.players[0].rounds.length) +
+      '<div class="mact"><button type="button" class="btn primary" data-act="next">' + (last ? "Résultat final" : "Manche suivante ▶") + "</button></div>");
+  }
+
+  function showFinalModal() {
+    var rank = G.players.slice().sort(function (a, b) { return b.score - a.score; });
+    var top = rank[0];
+    var winners = rank.filter(function (p) { return p.score === top.score; });
+    var h = '<h2>Fin de partie</h2><div class="podium">' +
+      (winners.length > 1 ? "Égalité entre " + winners.map(function (p) { return esc(p.name); }).join(" et ") :
+        '<div class="w">🏆 ' + esc(top.name) + '</div>Capitaine des Sept Mers avec <b>' + top.score + "</b> points") + "</div>";
+    h += '<div class="twrap"><table class="sc"><thead><tr><th>Rang</th><th>Joueur</th><th>Points</th></tr></thead><tbody>' +
+      rank.map(function (p, i) { return "<tr><td>" + (i + 1) + "</td><td style=\"color:#f3ead3\">" + esc(p.name) + "</td><td><b>" + p.score + "</b></td></tr>"; }).join("") + "</tbody></table></div>";
+    h += "<h3>Détail par manche</h3>" + scoreTable(10);
+    h += '<div class="mact"><button type="button" class="btn" data-act="menu">Menu</button><button type="button" class="btn primary" data-act="replay">Rejouer</button></div>';
+    showModal(h);
+  }
+
+  function showTigModal() {
+    showModal("<h2>🐯 Tigresse</h2><p>Comment veux-tu jouer la Tigresse ?</p>" +
+      '<div class="choices"><button type="button" data-act="tig" data-m="pirate">🏴‍☠️ Pirate<small>bat les cartes numérotées</small></button>' +
+      '<button type="button" data-act="tig" data-m="escape">🏳️ Fuite<small>ne gagne jamais</small></button></div>' +
+      '<div class="mact"><button type="button" class="btn" data-act="tigcancel">Annuler</button></div>');
+  }
+
+  function showAbilityModal(k) {
+    var me = G.players[0], h, i;
+    if (k === 0) {
+      h = "<h2>Rosie D'Laney</h2><p>Tu as gagné le pli avec Rosie. Qui entame le pli suivant ?</p><div class=\"choices\">";
+      G.players.forEach(function (p, idx) { h += '<button type="button" data-act="abil" data-k="0" data-v="' + idx + '">' + esc(idx === 0 ? "Moi" : p.name) + "</button>"; });
+      h += "</div>";
+    } else if (k === 2) {
+      h = "<h2>Rascal de Roatan</h2><p>Mise des points sur ton pari (<b>" + me.bid + "</b>, déjà <b>" + me.won + "</b> pli" + (me.won > 1 ? "s" : "") + "). Réussi : tu les gagnes. Raté : tu les perds.</p><div class=\"choices\">" +
+        [0, 10, 20].map(function (v) { return '<button type="button" data-act="abil" data-k="2" data-v="' + v + '">' + v + " pts</button>"; }).join("") + "</div>";
+    } else if (k === 3) {
+      var u = G.deck.slice().sort(cmp);
+      h = "<h2>Juanita Jade</h2><p>" + u.length + " carte" + (u.length > 1 ? "s" : "") + " n'ont pas été distribuées cette manche (donc ne sont pas en jeu) :</p><div class=\"undealt\">" +
+        u.map(function (c) { return cardHTML(c, { sm: true }); }).join("") + '</div><div class="mact"><button type="button" class="btn primary" data-act="abil" data-k="3" data-v="0">Compris</button></div>';
+    } else {
+      h = "<h2>Harry le Géant</h2><p>Ton pari actuel : <b>" + me.bid + "</b> (plis remportés : <b>" + me.won + "</b>). Tu peux le modifier.</p><div class=\"choices\">" +
+        [-1, 0, 1].map(function (v) {
+          var nb = me.bid + v, dis = nb < 0 || nb > G.round;
+          return '<button type="button" data-act="abil" data-k="4" data-v="' + v + '"' + (dis ? " disabled" : "") + ">" + (v === 0 ? "Garder " + me.bid : (v > 0 ? "+1" : "−1") + " → " + nb) + "</button>";
+        }).join("") + "</div>";
+    }
+    showModal(h);
+  }
+
+  function showBendtModal() {
+    var me = G.players[0], B = G.bendt, d = B.drawn.length;
+    var h = "<h2>Bendt le Bandit</h2><p>Tu as pioché " + d + " carte" + (d > 1 ? "s" : "") + " (bordure dorée). Choisis-en <b>" + d + "</b> à défausser : <b>" + B.sel.length + "/" + d + "</b>.</p><div class=\"hand\" style=\"padding-top:12px\">";
+    h += me.hand.map(function (c) {
+      var cls = (B.drawn.indexOf(c.id) >= 0 ? "newc " : "") + (B.sel.indexOf(c.id) >= 0 ? "sel" : "");
+      return cardHTML(c, { cls: cls, attrs: ' data-act="bsel" role="button" tabindex="0" style="cursor:pointer"' });
+    }).join("");
+    h += '</div><div class="mact"><button type="button" class="btn primary" data-act="bconfirm"' + (B.sel.length === d ? "" : " disabled") + ">Défausser</button></div>";
+    showModal(h);
+  }
+
+  function showRulesModal() {
+    showModal("<h2>Règles</h2>" +
+      "<h3>But</h3><p>Annoncer <b>exactement</b> le nombre de plis que tu vas remporter à chaque manche. 10 manches : à la manche <i>n</i>, chacun reçoit <i>n</i> cartes.</p>" +
+      "<h3>Jouer un pli</h3><ul><li>Le premier joueur pose une carte, les autres suivent dans le sens horaire.</li>" +
+      "<li><b>Obligation de suivre</b> : si la couleur demandée est une couleur numérotée et que tu en as, tu dois en jouer une. Avoir de l'atout (noir) ne t'en dispense pas ; si tu n'as pas la couleur, tu peux jouer n'importe quoi, atout compris.</li>" +
+      "<li>Pirates, Sirènes, Skull King, Fuites, Tigresse (et cartes avancées) peuvent toujours être jouées.</li>" +
+      "<li>Si la première carte est une Fuite, la couleur demandée est celle de la première carte numérotée jouée ensuite. Si c'est un Pirate, une Sirène ou le Skull King, aucune couleur n'est demandée.</li></ul>" +
+      "<h3>Qui gagne le pli ?</h3><ul>" +
+      "<li><b>Skull King</b> bat les Pirates et les cartes numérotées, mais perd contre une <b>Sirène</b> du même pli.</li>" +
+      "<li><b>Pirate</b> bat les Sirènes et les cartes numérotées (le premier pirate joué l'emporte).</li>" +
+      "<li><b>Sirène</b> bat les cartes numérotées (et capture le Skull King).</li>" +
+      "<li>Cartes numérotées : le <b>Pavillon noir ☠️</b> est atout ; sinon la plus haute de la couleur demandée.</li>" +
+      "<li><b>Fuite</b> ne gagne jamais (si tout le monde fuit, le premier joueur gagne).</li>" +
+      "<li><b>Tigresse</b> : tu choisis en la jouant Pirate ou Fuite.</li></ul>" +
+      "<h3>Points</h3><ul><li>Pari réussi : +20 par pli. Pari raté : −10 par pli d'écart.</li>" +
+      "<li>Pari 0 réussi : +10 × n° de manche. Pari 0 raté : −10 × n° de manche.</li>" +
+      "<li>Bonus (uniquement si le pari est réussi) : +10 par 14 de couleur, +20 pour le 14 noir, +30 par pirate capturé par le Skull King, +20 par sirène capturée par un pirate, +40 pour le Skull King capturé par une sirène.</li></ul>" +
+      "<h3>Règles avancées (optionnelles)</h3><ul>" +
+      "<li><b>Kraken 🐙</b> : le pli est annulé, personne ne le remporte. Le joueur qui l'aurait remporté sans le Kraken entame le pli suivant.</li>" +
+      "<li><b>Baleine blanche 🐋</b> : les cartes spéciales du pli deviennent des Fuites et les couleurs disparaissent : la plus haute carte numérotée gagne (la première jouée en cas d'égalité). S'il n'y en a aucune, le pli est annulé et le joueur de la Baleine entame le suivant.</li>" +
+      "<li>Kraken et Baleine dans le même pli : le second joué garde son pouvoir, l'autre est une Fuite.</li>" +
+      "<li><b>Butin 💎 (×2)</b> : se joue comme une Fuite. Celui qui le joue et celui qui gagne le pli sont alliés : +20 chacun si les deux réussissent exactement leur pari. Si tous les autres sont des Fuites, le joueur du Butin gagne, sans alliance.</li>" +
+      "<li><b>Pouvoirs des pirates</b> (uniquement si tu <i>gagnes</i> le pli avec le pirate, à utiliser tout de suite) : " +
+      PIRATES.map(function (p) { return "<b>" + p.n + "</b> – " + p.d; }).join(" ") + " Seul Harry sert encore après le dernier pli.</li>" +
+      "<li><b>Comptage Rascal</b> : pas de points négatifs. 10 points par carte de la manche si le pari est exact, la moitié à un pli d'écart, rien au-delà. Les bonus suivent la même règle.</li></ul>" +
+      '<div class="mact"><button type="button" class="btn primary" data-act="close">Fermer</button></div>');
+  }
+
+
+  /* ================= Glossaire ================= */
+  var GLOSS_TAB = "all";
+  var GLOSS_TABS = [["all", "Tout"], ["hier", "Hiérarchie"], ["couleur", "Couleurs"], ["spec", "Spéciales"], ["adv", "Avancées"]];
+
+  function glossData() {
+    var N = function (s, v) { return { id: -1, t: "num", s: s, v: v }; };
+    var X = function (t, k) { return { id: -1, t: t, k: k || 0 }; };
+    var pw = PIRATES.map(function (p) { return "<b>" + p.n + "</b> : " + p.d; });
+    return [
+      { cat: "couleur", name: "Perroquets · Cartes au trésor · Coffres", count: "3 × 14 cartes (1 à 14)", cols: 2,
+        cards: [N("g", 1), N("g", 14), N("p", 14), N("y", 14)],
+        rules: [
+          "Cartes numérotées de 1 à 14, en vert 🦜, violet 🗺️ et jaune 💰.",
+          "<b>Obligation de suivre</b> : si la première carte numérotée du pli est de cette couleur et que tu en as, tu dois en jouer une.",
+          "Sans la couleur demandée, tu peux jouer n'importe quelle carte, atout compris.",
+          "Elles perdent contre toute carte noire (atout) et toute carte spéciale supérieure.",
+          "<b>Bonus</b> : chaque 14 de couleur dans le pli que tu remportes rapporte <b>+10</b> (si ton pari est réussi)."
+        ] },
+      { cat: "couleur", name: "Pavillon noir ☠️", tag: "Atout", count: "14 cartes (1 à 14)", cols: 2,
+        cards: [N("b", 1), N("b", 14)],
+        rules: [
+          "<b>Atout</b> : toute carte noire bat toute carte de couleur, même un 14.",
+          "Si le noir est demandé, tu dois en jouer si tu en as. Sinon, tu peux jouer ce que tu veux.",
+          "Entre deux cartes noires, la plus haute gagne.",
+          "Il ne bat ni Pirate, ni Sirène, ni Skull King.",
+          "<b>Bonus</b> : le 14 noir dans le pli que tu remportes rapporte <b>+20</b> (si ton pari est réussi)."
+        ] },
+      { cat: "spec", name: "Skull King", count: "1 carte", cards: [X("sk")],
+        rules: [
+          "Bat tous les Pirates et toutes les cartes numérotées.",
+          "<b>Perd contre une Sirène</b> jouée dans le même pli, même s'il y a aussi un Pirate.",
+          "<b>Bonus</b> : <b>+30</b> par Pirate capturé dans le pli (si ton pari est réussi).",
+          "Se joue à tout moment. S'il entame le pli, aucune couleur n'est demandée."
+        ] },
+      { cat: "spec", name: "Pirate", count: "5 cartes", cols: 2,
+        cards: [X("pirate", 0), X("pirate", 1), X("pirate", 2), X("pirate", 3), X("pirate", 4)],
+        rules: [
+          "Bat les Sirènes et toutes les cartes numérotées (atout compris).",
+          "Perd contre le Skull King. Si plusieurs Pirates sont joués, <b>le premier joué</b> l'emporte.",
+          "<b>Bonus</b> : <b>+20</b> par Sirène capturée dans le pli (si ton pari est réussi).",
+          "Se joue à tout moment. S'il entame le pli, aucune couleur n'est demandée.",
+          "Les 5 pirates sont nommés : Rosie, Bendt, Rascal, Juanita, Harry. Leur nom ne change rien aux règles de base (voir les pouvoirs, onglet « Avancées »)."
+        ] },
+      { cat: "spec", name: "Tigresse", count: "1 carte", cards: [X("tigress")],
+        rules: [
+          "Quand tu la joues, tu <b>choisis</b> : Pirate ou Fuite.",
+          "En <b>Pirate</b> : elle a la force d'un Pirate (et peut être capturée par le Skull King pour le bonus).",
+          "En <b>Fuite</b> : elle ne gagne jamais et ne donne aucun bonus de capture.",
+          "Se joue à tout moment, sans obligation de suivre la couleur."
+        ] },
+      { cat: "spec", name: "Sirène", count: "2 cartes", cards: [X("mermaid")],
+        rules: [
+          "Bat toutes les cartes numérotées (atout compris).",
+          "<b>Bat le Skull King</b> et rapporte alors <b>+40</b> (si ton pari est réussi).",
+          "Perd contre un Pirate.",
+          "Si Sirène, Skull King et Pirate sont dans le même pli, <b>la Sirène</b> gagne.",
+          "Se joue à tout moment. Si elle entame le pli, aucune couleur n'est demandée."
+        ] },
+      { cat: "spec", name: "Fuite", count: "5 cartes", cards: [X("escape")],
+        rules: [
+          "Ne remporte jamais un pli : idéale pour perdre volontairement.",
+          "Se joue à tout moment, sans obligation de suivre.",
+          "Si elle entame le pli, la couleur demandée est celle de la <b>première carte numérotée</b> jouée ensuite.",
+          "Si tous les joueurs jouent une Fuite, le premier joueur remporte le pli."
+        ] },
+      { cat: "adv", opt: "kraken", name: "Kraken 🐙", count: "1 carte", cards: [X("kraken")],
+        rules: [
+          "Le pli est <b>annulé</b> : personne ne le remporte, aucun bonus n'est compté.",
+          "Celui qui <b>aurait gagné</b> sans le Kraken entame le pli suivant.",
+          "Avec la Baleine blanche dans le même pli, <b>la carte jouée en second</b> garde son pouvoir. L'autre agit comme une Fuite.",
+          "Se joue à tout moment. S'il entame le pli, aucune couleur n'est demandée."
+        ] },
+      { cat: "adv", opt: "whale", name: "Baleine blanche 🐋", count: "1 carte", cards: [X("whale")],
+        rules: [
+          "Les cartes spéciales du pli deviennent des <b>Fuites</b>, et les couleurs (atout compris) n'ont plus d'effet.",
+          "La <b>plus haute carte numérotée</b> gagne ; à égalité, la première jouée.",
+          "Aucune carte numérotée ? Le pli est annulé et le joueur de la Baleine entame le suivant.",
+          "Si une couleur était déjà demandée avant elle, on doit toujours la suivre.",
+          "Les 14 du pli rapportent toujours leur bonus au gagnant."
+        ] },
+      { cat: "adv", opt: "loot", name: "Butin 💎", count: "2 cartes", cards: [X("loot")],
+        rules: [
+          "Se joue comme une <b>Fuite</b> : elle ne gagne jamais.",
+          "<b>Alliance</b> : celui qui joue le Butin et celui qui remporte le pli sont alliés pour la manche.",
+          "Si <b>les deux</b> réussissent exactement leur pari, chacun marque <b>+20</b>. Sinon, rien.",
+          "Si toutes les autres cartes du pli sont des Fuites, le joueur du Butin gagne le pli et il n'y a pas d'alliance."
+        ] },
+      { cat: "adv", opt: "pirates", name: "Pouvoirs des pirates", count: "5 pirates", cols: 2,
+        cards: [X("pirate", 0), X("pirate", 1), X("pirate", 2), X("pirate", 3), X("pirate", 4)],
+        rules: [
+          "Le pouvoir ne s'active que si tu <b>gagnes</b> le pli avec ce pirate (le capturer ne suffit pas), et il s'utilise <b>aussitôt</b>."
+        ].concat(pw.map(function (x) { return x; })).concat([
+          "Seul <b>Harry</b> peut encore servir après le dernier pli de la manche."
+        ]) },
+      { cat: "adv", opt: "rascal", name: "Comptage Rascal", count: "mode de score", cards: [],
+        rules: [
+          "Plus de points négatifs. Chaque manche vaut <b>10 points par carte</b>.",
+          "Pari exact : tous les points. <b>Un pli d'écart</b> : la moitié. Au-delà : rien.",
+          "Les bonus suivent la même règle : entiers, divisés par deux, ou perdus."
+        ] }
+    ];
+  }
+
+  function glossEntry(e) {
+    var tag = "";
+    if (e.cat === "adv") {
+      var on = !!SETTINGS.opts[e.opt];
+      tag = '<span class="tag adv">Avancée</span><span class="tag ' + (on ? "on" : "off") + '">' + (on ? "Active" : "Désactivée") + "</span>";
+    } else if (e.tag) tag = '<span class="tag adv">' + e.tag + "</span>";
+    var cards = e.cards.length
+      ? '<div class="gcards" style="--cols:' + (e.cols || 1) + '">' + e.cards.map(function (c) { return cardHTML(c, { sm: true }); }).join("") + "</div>" : "";
+    return '<div class="gentry">' + cards + '<div class="gtxt"><h3>' + e.name + " <em>" + e.count + "</em>" + tag + "</h3><ul>" +
+      e.rules.map(function (r) { return "<li>" + r + "</li>"; }).join("") + "</ul></div></div>";
+  }
+
+  function glossHier() {
+    return '<div class="ghier"><div class="cycle"><b>Sirène</b> bat <b>Skull King</b> bat <b>Pirate</b> bat <b>Sirène</b></div>' +
+      "<p style=\"margin:0\">Le trio tourne en rond. Si les trois sont dans le même pli, la <b>Sirène</b> gagne.</p>" +
+      "<ol><li><b>Skull King</b> : bat Pirates et cartes numérotées (sauf face à une Sirène).</li>" +
+      "<li><b>Pirate</b> : bat Sirènes et cartes numérotées. Le premier joué gagne.</li>" +
+      "<li><b>Sirène</b> : bat les cartes numérotées et le Skull King.</li>" +
+      "<li><b>Atout noir ☠️</b> : le plus haut noir bat toutes les couleurs.</li>" +
+      "<li><b>Couleur demandée</b> : la plus haute gagne (les autres couleurs ne comptent pas).</li>" +
+      "<li><b>Fuite</b> : ne gagne jamais.</li></ol>" +
+      '<p class="gnote">Avec les règles avancées, le Kraken et la Baleine blanche changent cet ordre : voir l\'onglet « Avancées ».</p></div>' +
+      '<div class="gsec">Bonus (si le pari est réussi)</div><table class="gbonus"><tbody>' +
+      "<tr><td>14 de couleur dans le pli remporté</td><td>+10</td></tr>" +
+      "<tr><td>14 noir dans le pli remporté</td><td>+20</td></tr>" +
+      "<tr><td>Sirène capturée par un Pirate</td><td>+20</td></tr>" +
+      "<tr><td>Pirate capturé par le Skull King</td><td>+30</td></tr>" +
+      "<tr><td>Skull King capturé par une Sirène</td><td>+40</td></tr></tbody></table>";
+  }
+
+  function glossBody(tab) {
+    var data = glossData(), h = "", cat;
+    var sec = { couleur: "Cartes de couleur", spec: "Cartes spéciales", adv: "Règles avancées (optionnelles)" };
+    if (tab === "hier") return glossHier();
+    if (tab === "all") h += glossHier();
+    ["couleur", "spec", "adv"].forEach(function (c) {
+      if (tab !== "all" && tab !== c) return;
+      h += '<div class="gsec">' + sec[c] + "</div>";
+      data.filter(function (e) { return e.cat === c; }).forEach(function (e) { h += glossEntry(e); });
+    });
+    return h;
+  }
+
+  function glossTabsHTML() {
+    return GLOSS_TABS.map(function (t) {
+      return '<button type="button" data-act="gtab" data-v="' + t[0] + '" aria-pressed="' + (GLOSS_TAB === t[0]) + '">' + t[1] + "</button>";
+    }).join("");
+  }
+
+  function showGlossModal() {
+    showModal("<h2>Glossaire des cartes</h2><div class=\"gtabs\" id=\"gtabs\">" + glossTabsHTML() + '</div><div id="gbody">' + glossBody(GLOSS_TAB) +
+      '</div><div class="mact"><button type="button" class="btn primary" data-act="close">Fermer</button></div>');
+  }
+
+  /* ================= Événements ================= */
+  document.addEventListener("click", function (e) {
+    var el = e.target.closest("[data-act]");
+    if (!el || el.disabled) return;
+    var a = el.getAttribute("data-act");
+    switch (a) {
+      case "opp":
+        SETTINGS.opp = parseInt(el.getAttribute("data-v"), 10);
+        Array.prototype.forEach.call(document.querySelectorAll("#oppseg button"), function (b) { b.setAttribute("aria-pressed", b === el ? "true" : "false"); });
+        break;
+      case "allopts":
+        var all = OPTS.some(function (o) { return !SETTINGS.opts[o[0]]; });
+        OPTS.forEach(function (o) { SETTINGS.opts[o[0]] = all; });
+        Array.prototype.forEach.call(document.querySelectorAll("[data-opt]"), function (c) { c.checked = all; });
+        break;
+      case "start":
+        SETTINGS.name = ($("#pname").value || "").trim() || "Moi";
+        SETTINGS.speed = parseFloat($("#speed").value) || 1;
+        newGame();
+        break;
+      case "bid": humanBid(parseInt(el.getAttribute("data-v"), 10)); break;
+      case "play": humanPlay(parseInt(el.getAttribute("data-id"), 10)); break;
+      case "skip": nextTrick(); break;
+      case "tig":
+        if (G && G.pendingTig) { var c = G.pendingTig; G.pendingTig = null; closeModal(); doPlay(0, c, el.getAttribute("data-m")); }
+        break;
+      case "tigcancel": if (G) G.pendingTig = null; closeModal(); break;
+      case "abil": humanAbility(parseInt(el.getAttribute("data-k"), 10), parseInt(el.getAttribute("data-v"), 10)); break;
+      case "bsel": bendtToggle(parseInt(el.getAttribute("data-id"), 10)); break;
+      case "bconfirm": bendtConfirm(); break;
+      case "scores": showScoresModal(); break;
+      case "rules": showRulesModal(); break;
+      case "gloss": showGlossModal(); break;
+      case "gtab": GLOSS_TAB = el.getAttribute("data-v"); $("#gtabs").innerHTML = glossTabsHTML(); $("#gbody").innerHTML = glossBody(GLOSS_TAB); break;
+      case "close": closeModal(); break;
+      case "recap": if (G.phase === "over") showFinalModal(); else showRoundModal(); break;
+      case "next": nextRound(); break;
+      case "replay": closeModal(); newGame(); break;
+      case "menu":
+        if (G && G.phase !== "over" && !window.confirm("Quitter la partie en cours ?")) break;
+        clearTimeout(timer); closeModal(); G = null; render();
+        break;
+    }
+  });
+  document.addEventListener("change", function (e) {
+    var k = e.target.getAttribute && e.target.getAttribute("data-opt");
+    if (k) SETTINGS.opts[k] = e.target.checked;
+  });
+  document.addEventListener("keydown", function (e) {
+    if ((e.key === "Enter" || e.key === " ") && e.target.getAttribute) {
+      var a = e.target.getAttribute("data-act");
+      if (a === "play") { e.preventDefault(); humanPlay(parseInt(e.target.getAttribute("data-id"), 10)); }
+      else if (a === "bsel") { e.preventDefault(); bendtToggle(parseInt(e.target.getAttribute("data-id"), 10)); }
+    }
+  });
+
+  window.__sk = { resolve: resolve, legalCards: legalCards, state: function () { return G; }, makeDeck: makeDeck, settings: SETTINGS };
+  render();
+})();
+</script>
+</body>
+</html>
